@@ -2,6 +2,7 @@ Difference between Python2 and Python3
 
     -> In Python3 unicode is supported by default
     -> cleared some confusion of python2 like print ()
+    -> type hinting for example def add_numbers(a :int, b :int)
 
 Installation link
 www.python.org
