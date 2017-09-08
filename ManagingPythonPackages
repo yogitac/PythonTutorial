@@ -1,0 +1,40 @@
+
+Packages are searched into sys.path
+===================================
+  ->The first directory is the current directory where the packages are searched
+  ->Last is the site-packages
+  
+P.S. Dont use distutils and easy_install as its obsolete now. both of these are merged into setup tools
+
+HOW TO INSTALL PACKAGE USING PIP
+================================
+  pip install package_name
+  pip install package_name==1.0
+  pip install 'package_name>1.2'
+  
+INSPECT PACKAGES
+================
+  pip list
+  pip show package-name    #get info on the package
+  pip search query         #search for a package
+  
+REQUIREMENT FILE
+================
+  pip freeze > requirements.txt
+  pip install -r requirements.txt
+  
+RESOURCES
+=========
+Below are the most trustworthy links of python packages:
+  
+  Python packaging user guide
+  ===========================
+  https://readthedocs.org
+  
+  New pip options
+  ===============
+  http://pip.readthedocs.org
+  
+  Pypi
+  ====
+  http://pypi.python.org
