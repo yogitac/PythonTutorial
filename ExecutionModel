@@ -1,0 +1,37 @@
+Modularity
+
+
+def main()
+     call_func()
+     
+if __name__ == '__main__'
+     main()
+
+if we dont add if clause then the code will not be executed as python script.
+In the repl if we try to import the module then its loaded only once.Therefore the __name__ variable will print the module(only once).
+If the script is invoked through shell then __name__ evaluates to string '__main__' 
+The above will work from repl as well as shell as a python script.
+
+
+Command line arguments
+======================
+
+sys.argv[1]
+
+
+Python standard library for advanced command line parsing
+=========================================================
+argparser
+docopt --> This is third party package.
+
+Shebang
+=======
+#!/usr/bin/env python3  //tells which interpreter to use
+
+docstrings
+==========
+
+""" hello
+    World"""
+    
+    
