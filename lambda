@@ -1,0 +1,11 @@
+lambda are the anonymous functions, they have no name
+
+def double(x):
+   return x*2
+   
+ is similar to the following: 
+ double = lambda x: x*2
+ 
+ PTR:
+ => these are one line functions meaning these cann't be multi statement.
+ 
