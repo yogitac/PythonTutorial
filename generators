@@ -1,0 +1,6 @@
+if a function contains yield statement then its a generator
+===========================================================
+
+def generate_number(*ranges):
+    it = itr(ranges)
+    
