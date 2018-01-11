@@ -1,0 +1,9 @@
+
+List:  Mutable sequence of objects
+Dict: Mutable mappings of key value pairs
+tuple: Immutable sequence of objects
+set: unordered collection of items. Every element is unique (no duplicates) and must be immutable (which cannot be changed).
+
+However, the set itself is mutable. We can add or remove items from it
+
+Frozensets: are like sets, just that they are immutable. 
