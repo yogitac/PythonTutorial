@@ -1,0 +1,5 @@
+urlconf - it will look for a url file, where all routes and views are present.
+view - is a place where the developer writes the logic to interact with backend and business logic.
+template - view generates pages that users see in the templates
+      html pages
+view interacts with template by passing context_object
