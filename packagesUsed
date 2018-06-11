@@ -1,2 +1,6 @@
 cython
 xmlrpc
+libxslt
+os
+system
+pickle
