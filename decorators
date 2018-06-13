@@ -1,0 +1,25 @@
+decorators are the high order function that takes function as an argument and returns the inner function.
+Decorators add extra functionality to the function that was passed without altering it.
+
+syntax
+    
+def outer(func):
+
+    def inner():
+
+        print("Accessing :", 
+
+                  func.__name__)
+
+        return func()
+
+
+
+    return inner
+
+def greet():
+
+    return 'Hello!'
+    
+
+two methods to decorate a function
