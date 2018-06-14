@@ -1,0 +1,8 @@
+Object represents an entity in the real world that can be distinctly identified.
+Objects of the same kind are defined by using a common class
+
+The relationship between classes and objects is analogous to that between an apple-pie recipe and apple pies.
+You can make as many apple pies (objects) as you want from a single recipe (class).
+
+
+An object is an instance of a class, and you can create many instances of a class
