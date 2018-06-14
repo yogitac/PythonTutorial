@@ -1,0 +1,30 @@
+Python has six built-in types of sequences, but the most common ones are lists and tuples
+
+There are certain things you can do with all sequence types:
+  indexing
+  slicing
+  adding
+  multiplying
+  checking of membership
+
+*Python also has builtin function for len, max and min for sequences:
+
+Adding in a list - append
+
+
+Delete list elements
+del if u know which one are u removing
+
+how to append two lists
+
+
+Converts a tuple into a list like this: list(seq)
+
+
+
+diff between list.sort and sorted(list)
+
+sorted will return a list:
+
+https://www.programiz.com/python-programming/methods/built-in/sorted
+
